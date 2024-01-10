@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<script src="https://kit.fontawesome.com/006c188c9c.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+	<link rel="icon" href="images/yes.png">
+	<script src="js/yes24_main.js"></script>
+	<script src="js/yes24_concert.js"></script>
+	<link rel="stylesheet" href="css/yes24_concert.css">
+	<link rel="stylesheet" href="css/yes24_concert_media.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Yes24_concert</title>
+</head>
+
+<body>
+
+	<header id="head">
+		<div class="fixed">
+			<div id="hide_menu">
+				<div class="h_left">
+					<ul>
+						<li><a href="#">YES24</a></li>
+						<li><a href="#">영화</a></li>
+						<li><a href="#">CD/LP <b>·</b> DVD/BD</a></li>
+						<li><a href="#">│</a></li>
+						<li><a href="#">예스24아리브홀 <b>·</b> 예스24스테이지</a></li>
+					</ul>
+				</div>
+				<div class="h_right">
+					<ul>
+						<li><a href="#">로그인</a></li>
+						<li><a href="#">마이페이지</a></li>
+						<li><a href="#">고객센터</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="headnav">
+				<div class="sidemenu">
+					<i class="fas fa-bars"></i>
+				</div>
+				<div class="logo"><a href="yes24_main.html"><img src="images/ticketlogo.jpg" alt=""></a></div>
+
+				<div class="show_menu2">
+					<ul class="show_menu_ul02">
+						<li><a href="#none" class="fontsize"><span
+									style="color: orange;font-size: 25px;font-weight: 900;">·</span> 랭킹</a></li>
+						<li><a href="#" class="fontsize"><span
+									style="color: orange;font-size: 25px;font-weight: 900;">·</span>이벤트</a></li>
+
+						<li class="search_pos"> <a href="#none"> <input type="search" value=""> <i
+									class="fas fa-search"> </i></a>
+							<div id="searchbox">
+								<div class="s_left">
+									<ul>
+										<p>인기검색어</p>
+										<li class="s_date1">2020.11.00 기준</li>
+										<li><a href="#">주식</a></li>
+										<li><a href="#">NCT</a></li>
+										<li><a href="#">아이유</a></li>
+										<li><a href="#">에이티즈</a></li>
+										<li><a href="#">트와이스</a></li>
+										<li><a href="#">데이식스</a></li>
+										<li><a href="#">페스트</a></li>
+									</ul>
+								</div>
+								<div class="s_right">
+									<ul>
+										<p>최근검색어</p>
+										<li class="s_date2">최근검색어삭제</li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"> 최근검색어가없습니다</a></li>
+									</ul>
+									<div id="s_close"><i class="fas fa-times"></i></div>
+								</div>
+							</div>
+						</li>
+						<li><a href="#none"><i class="far fa-user">
+									<p>MY티켓</p>
+								</i></a></li>
+						<li><a href="#none"><i class="fas fa-globe">
+									<p>GLOBAL</p>
+								</i></a></li>
+					</ul>
+				</div>
+				<!-- 		검색 박스  -->
+
+
+				<div class="show_menu">
+					<ul class="show_menu_ul01">
+
+						<li><a href="#none" class="not">콘서트</a>
+							<div class="show_menunone">
+								<a href="#">전체보기</a>
+								<a href="#">국내뮤지션</a>
+								<a href="#">해외뮤지션</a>
+							</div>
+						</li>
+						<li><a href="#none">뮤지컬</a>
+							<div class="show_menunone">
+								<a href="#">전체보기</a>
+								<a href="#">라이선스</a>
+								<a href="#">오리지널</a>
+								<a href="#">창작</a>
+								<a href="#">넌버별퍼포먼스</a>
+							</div>
+						</li>
+						<li><a href="#none">연극</a>
+							<div class="show_menunone">
+								<a href="#">전체보기</a>
+								<a href="#">대학로 </a>
+								<a href="#">기타지역</a>
+							</div>
+						</li>
+						<li><a href="#none">클래식</a>
+							<div class="show_menunone">
+								<a href="#">전체보기</a>
+								<a href="#">발레/무용</a>
+								<a href="#">국악</a>
+							</div>
+						</li>
+						<li><a href="#none">전시</a>
+							<div class="show_menunone">
+								<a href="#">전체보기</a>
+								<a href="#">전시</a>
+								<a href="#">체험/행사</a>
+								<a href="#">워터파크/스파</a>
+							</div>
+						</li>
+						<li><a href="#none">아동</a>
+							<div class="show_menunone">
+								<a href="#">뮤지컬</a>
+								<a href="#">연극</a>
+								<a href="#">기타</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+	</header>
+	<!--   사이드 숨김메뉴 시작 -->
+	<div id="sidemenubox">
+		<div class="side_box"></div>
+		<span class="close">x</span>
+
+		<div id="side_main">
+			<ul class="main_text">
+				<li>
+					<a href="#">콘서트</a>
+					<ul class="hide_menu">
+						<li><a href="#">- 전체보기</a></li>
+						<li><a href="#">- 국내 뮤지션</a></li>
+						<li><a href="#">- 해외 뮤지션</a></li>
+						<li><a href="#">- 페스티벌</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">뮤지컬</a>
+					<ul class="hide_menu">
+						<li><a href="#">- 전체보기</a></li>
+						<li><a href="#">- 라이선스</a></li>
+						<li><a href="#">- 오리지널</a></li>
+						<li><a href="#">- 창작</a></li>
+						<li><a href="#">- 넌버별 퍼포먼스</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">연극</a>
+					<ul class="hide_menu">
+						<li><a href="#">- 전체보기</a></li>
+						<li><a href="#">- 국내 뮤지션</a></li>
+						<li><a href="#">- 해외 뮤지션</a></li>
+						<li><a href="#">- 페스티벌</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">클래식/국악/무용</a>
+					<ul class="hide_menu">
+						<li><a href="#">- 전체보기</a></li>
+						<li><a href="#">- 국내 뮤지션</a></li>
+						<li><a href="#">- 해외 뮤지션</a></li>
+						<li><a href="#">- 페스티벌</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">전시/행사</a>
+					<ul class="hide_menu">
+						<li><a href="#">- 전체보기</a></li>
+						<li><a href="#">- 국내 뮤지션</a></li>
+						<li><a href="#">- 해외 뮤지션</a></li>
+						<li><a href="#">- 페스티벌</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">아동/가족</a>
+					<ul class="hide_menu">
+						<li><a href="#">- 전체보기</a></li>
+						<li><a href="#">- 국내 뮤지션</a></li>
+						<li><a href="#">- 해외 뮤지션</a></li>
+						<li><a href="#">- 페스티벌</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul class="middle_text">
+
+				<li><a href="#">랭킹</a></li>
+				<li><a href="#">지역별</a></li>
+				<li><a href="#">공연장</a></li>
+
+			</ul>
+
+			<ul class="main2_text">
+
+				<li><a href="#">공지사항</a></li>
+				<li><a href="#">이벤트</a></li>
+				<li><a href="#">읽을거리</a></li>
+				<li><a href="#">이용안내</a></li>
+			</ul>
+
+			<ul class="myticket_ul" id="myticket_hr">
+
+				<li>
+					<a href="#">MY티켓</a>
+					<ul class="myticket">
+						<li style="margin-left: 20px"><a href="#">- 예매확인/취소</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul class="myticket_ul_02">
+				<li>
+					<a href="#">최근본상품</a>
+					<span class="f_menuspan">
+						< </span>
+							<span class="f_menuspan2"> > </span>
+							<div class="f_menu_box">
+								<ul>
+									<li><a href="#"><img src="images/moomin120.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/blackpink120.jpg" alt=""></a></li>
+								</ul>
+							</div>
+							<div class="side_f_menu">MD#</div>
+							<div class="side_f_menu">GLOBAL</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- 메인 섹션 시작  -->
+	<div id="wrapper">
+		<div id="c-slide">
+			<div class="slide_view">
+				<ul class="slide_ul">
+					<li>
+						<a href="#">
+							<img src="images/ben400.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/aakmu.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/xia450.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/yoon450.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/xia450.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/iu400.jpg" alt="">
+						</a>
+					</li>
+				</ul>
+				<i class="fas fa-chevron-left"></i>
+				<i class="fas fa-chevron-right"></i>
+			</div>
+
+		</div>
+		<!-- 섹션 01 what's hot  -->
+		<section id="c-whatshot">
+			<h1 class="maintitle">WHAT'S HOT</h1>
+			<div class="hot-content01">
+				<span class="h_span span01">단독</span>
+				<span class="h_span span02">단독</span>
+				<span class="h_span span03">단독</span>
+				<a href="#none">
+					<div class="h_img" id="h_img01">
+						<img src="images/iu300.jpg" alt="">
+					</div>
+					<div class="h_text">
+						<p class="h_texttop">IU <팔레트>
+						</p>
+						<p class="h_textbotm">올림픽체조경기장</p>
+					</div>
+				</a>
+				<a href="#none">
+					<div class="h_img" id="h_img01">
+						<img src="images/kinky300.jpg" alt="">
+					</div>
+					<div class="h_text">
+						<p class="h_texttop">뮤지컬 <킹키부츠>
+						</p>
+						<p class="h_textbotm">샤롯데씨어터</p>
+					</div>
+				</a>
+				<a href="#none">
+					<div class="h_img" id="h_img01">
+						<img src="images/moomin300.jpg" alt="">
+					</div>
+					<div class="h_text">
+						<p class="h_texttop">2020 무민 전시회</p>
+						<p class="h_textbotm"> 동대문디자인플라자 </p>
+					</div>
+				</a>
+				<a href="#none">
+					<div class="h_img" id="h_img01">
+						<img src="images/day6fan.jpg" alt="">
+					</div>
+					<div class="h_text">
+						<p class="h_texttop">데이식스 팬미팅</p>
+						<p class="h_textbotm">블루스퀘어 yes24홀</p>
+					</div>
+				</a>
+				<a href="#none">
+					<div class="h_img" id="h_img01">
+						<img src="images/othe300.jpg" alt="">
+					</div>
+					<div class="h_text">
+						<p class="h_texttop">뮤지컬<어쩌면해피엔딩>
+						</p>
+						<p class="h_textbotm">온라인콘서트</p>
+					</div>
+				</a>
+			</div>
+			<div class="hot-content02">
+				<a href="#none">
+					<div class="h_img" id="h_img01">
+						<img src="images/sec01300.jpg" alt="">
+					</div>
+					<div class="h_text">
+						<p class="h_texttop">뮤지컬 <작은아씨들>
+						</p>
+						<p class="h_textbotm">세종문화회관 S씨어터</p>
+					</div>
+				</a>
+				<a href="#none">
+					<div class="h_img" id="h_img01">
+						<img src="images/blackpink300.jpg" alt="">
+					</div>
+					<div class="h_text">
+						<p class="h_texttop">블랙핑크 정규2집 팬미팅</p>
+						<p class="h_textbotm">이화여자대학교 삼성..</p>
+					</div>
+				</a>
+				<a href="#none">
+					<div class="h_img" id="h_img01">
+						<img src="images/300.jpg" alt="">
+					</div>
+					<div class="h_text">
+						<p class="h_texttop">유승우 단독콘서트</p>
+						<p class="h_textbotm">노들섬 라이브하우스</p>
+					</div>
+				</a>
+				<a href="#none">
+					<div class="h_img" id="h_img01">
+						<img src="images/angli300.jpg" alt="">
+					</div>
+					<div class="h_text">
+						<p class="h_texttop">연극 <앙리할아버지와 나>
+						</p>
+						<p class="h_textbotm">드림아트센터</p>
+					</div>
+				</a>
+				<a href="#none">
+					<div class="h_img" id="h_img01">
+						<img src="images/leesola300.jpg" alt="">
+					</div>
+					<div class="h_text">
+						<p class="h_texttop">이소라 단독콘서트</p>
+						<p class="h_textbotm">블루스퀘어 아이마켓홀</p>
+					</div>
+				</a>
+			</div>
+		</section>
+
+		<section id="c-weekly">
+			<div class="weekly">
+				<div class="w_left">
+					<div class="w_ranktitle">
+						<a href="#">WEEKLY RANKING </a><span><a href="#"> 더보기 + </a></span>
+					</div>
+					<!-- 	  	랭킹ul -->
+					<div class="rank_box">
+						<ul id="rank_ul">
+							<li><a href="#">
+									<div class="r_num">1위</div>
+									<div class="r_img"><img src="images/rank100.jpg" alt=""></div>
+									<div class="r_title">[팬클럽] Beyond LIVE - SUPER JUNUOR 15t Anniversary Special Event
+										- 초대 (Invitation)</div>
+								</a></li>
+							<li><a href="#">
+									<div class="r_num">2위</div>
+									<div class="r_img"><img src="images/rank100.jpg" alt=""></div>
+									<div class="r_title">[일반] Beyond LIVE - SUPER JUNUOR 15t Anniversary Special Event -
+										초대 (Invitation)</div>
+								</a></li>
+							<li><a href="#">
+									<div class="r_num">3위</div>
+									<div class="r_img"><img src="images/xia_small.png" alt=""></div>
+									<div class="r_title">[2일권] 2020 XIA ONLINE CONCERT 'Pit A Pat'</div>
+								</a></li>
+							<li class="r_height"><a href="#">
+									<div class="r_num">4위</div>
+									<div class="r_img r_on"><img src="images/xia_small.png" alt=""></div>
+									<div class="r_title r_width"> [11/22] 2020 XIA ONLINE CONCERT 'Pit A Pat'</div>
+								</a></li>
+							<li><a href="#">
+									<div class="r_num">5위</div>
+									<div class="r_img "><img src="images/diseny.png" alt=""></div>
+									<div class="r_title">2020 디즈니 인 콘서트</div>
+								</a></li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="w_right">
+					<div class="location">
+						<p> 지역별 추천 <span><img src="images/location.JPG" alt=""></span></p>
+					</div>
+					<div class="location_box">
+						<a href="#none">
+							<div class="w_img" id="w_img01">
+								<img src="images/w_img01.jpg" alt="">
+								<span class="location_span">대구</span>
+							</div>
+							<div class="w_text">
+								<p class="w_texttop">거미<br />팬클럽 콘서트</p>
+								<p class="w_textbotm"> 컨벤션 홀 </p>
+							</div>
+						</a>
+
+						<a href="#none">
+							<div class="w_img" id="w_img02">
+								<img src="images/w_img03.jpg" alt="">
+								<span class="location_span">광주</span>
+							</div>
+							<div class="w_text">
+								<p class="w_texttop">이 한장의 재즈 피아노<br />트리오 앨범과 나 </p>
+								<p class="w_textbotm"> 베리어스 재즈클럽 </p>
+							</div>
+						</a>
+
+						<a href="#none">
+							<div class="w_img" id="w_img03">
+								<img src="images/w_img04.jpg" alt="">
+								<span class="location_span">부산</span>
+							</div>
+							<div class="w_text">
+								<p class="w_texttop">장윤정 콘서트<br />Preparation</p>
+								<p class="w_textbotm"> KBS 부산홀 </p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="c-picks">
+			<h1 class="maintitle">YES24's PICKS</h1>
+			<div class="pickbox">
+				<a href="#none">
+					<div class="p_img">
+						<img src="images/p_img01.jpg" alt="">
+					</div>
+					<div class="p_text">
+						<p class="p_texttop"> 이태성의 프랜들리 팬미팅 </p>
+						<p class="p_textbotm"> 플레이스 비브 </p>
+					</div>
+				</a>
+
+				<a href="#none">
+					<div class="p_img">
+						<img src="images/p_img02.jpg" alt="">
+					</div>
+					<div class="p_text">
+						<p class="p_texttop"> 뮤지컬 세종 1446 </p>
+						<p class="p_textbotm"> Yes24 Stage </p>
+					</div>
+				</a>
+
+				<a href="#none">
+					<div class="p_img">
+						<img src="images/p_img03.jpg" alt="">
+					</div>
+					<div class="p_text">
+						<p class="p_texttop"> 뮤지컬 헤드윅 </p>
+						<p class="p_textbotm"> 블루스퀘어 </p>
+					</div>
+				</a>
+
+				<a href="#none">
+					<div class="p_img">
+						<img src="images/p_img04.jpg" alt="">
+					</div>
+					<div class="p_text">
+						<p class="p_texttop"> 태연 콘서트 Inside</p>
+						<p class="p_textbotm"> 잠실 주경기장 </p>
+					</div>
+				</a>
+
+				<a href="#none">
+					<div class="p_img">
+						<img src="images/p_img05.jpg" alt="">
+					</div>
+					<div class="p_text">
+						<p class="p_texttop"> 뮤지컬 이블데드 </p>
+						<p class="p_textbotm"> 광림 아트센터 </p>
+					</div>
+				</a>
+			</div>
+		</section>
+		<section id="c-footermenu">
+			<a href="#none">
+				<div class="f_box f_box01">
+					<p class="f_boxp1">파주포크 페스티벌</p>
+					<p class="f_boxp2">2020.09.12(토) 임진각 평화누리</p>
+					<img src="images/f_img01.png" alt="">
+				</div>
+				<div class="f_box f_box02">
+					<p class="f_boxp1">Surround Viewing</p>
+					<p class="f_boxp2">SMTOWN THEATRE</p>
+					<img src="images/f_img02.png" alt="">
+				</div>
+
+			</a>
+		</section>
+
+		<!-- 푸터 메뉴 시작  -->
+		<footer>
+			<div id="footer_menu">
+				<div class="f_left">
+					<ul>
+						<li><a href="#">회사소개</a></li>
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">개인정보처리방침</a></li>
+						<li><a href="#">청소년보호정책</a></li>
+						<li><a href="#">이용안내</a></li>
+						<li><a href="#" style="border-right: none;">티켓판매안내</a></li>
+					</ul>
+				</div>
+				<div class="f_right">
+					<dl>
+						<dt><a href="#">Family Site<span></span></a></dt>
+						<dd>
+							<ul>
+								<li><a href="#">iSTYLE24</a></li>
+								<li><a href="#">한세예스24홀딩스</a></li>
+								<li><a href="#">한세실업</a></li>
+								<li><a href="#">한세드림</a></li>
+								<li><a href="#">한세MK</a></li>
+								<li><a href="#">컬리수</a></li>
+								<li><a href="#">YES@$ Vitnam</a></li>
+								<li><a href="#">동아출판</a></li>
+							</ul>
+						</dd>
+				</div>
+			</div>
+
+			<div id="address">
+				<div class="address_logo"> <img src="images/logo.jpg" alt=""></div>
+				<div class="address_middle">
+					<p style="margin-bottom: 10px;">예스이십사㈜</p>
+					<p style="font-size: 15px; color:#999;line-height:20px; ">서울시 영등포구 은행로 11, 5층~6층(여의도동,일신빌딩)<br>
+						대표 김석환 | 개인정보보호책임자 : 권민석 yes24help@yes24.com<br>
+						사업자등록번호 229-81-37000 | 통신판매업신고 제 2005-02682호<span><a href="#"> 사업자 정보확인 ></a></span><br>
+						호스팅 서비스사업자 : 예스이십사㈜</p><br>
+					<p style="font-size: 12px;">Copyright © YES24 Corp. All Rights Reserved.</p>
+				</div>
+				<div class="address_right">
+					<img src="images/fmark.png" alt="">
+					<b><a href="#none">서비스가입사실확인 > </a></b>
+					<p>고객님은 안전거래를 위한 현금 등으로 결제 시
+						저희 쇼핑몰에서 가입한 구매안전서비스를
+						이용하실 수 있습니다.</p>
+					</dl>
+				</div>
+			</div>
+		</footer>
+	</div> <!-- wrapper end -->
+	<button id="top"><i class="fas fa-arrow-up"></i></button>
+</body>
+
+</html>

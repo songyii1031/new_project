@@ -1,0 +1,275 @@
+@media (max-width: 600px) {
+  #m_header {
+    width: 100%;
+  }
+  .m_select {
+    width: 300px;
+  }
+  .m_select select {
+    width: 80px;
+    font-size: 13px;
+  }
+
+  #ipad_slide {
+    width: 100vw;
+    height: 600px;
+  }
+  #section01 {
+    height: 900px;
+  }
+
+  /*	섹션 02 */
+
+  .swiper-container {
+    width: 100%;
+  }
+
+  #section03 {
+    height: 1600px;
+  }
+  #tab_ul {
+    width: 100%;
+    padding-left: 22px;
+  }
+  .a_topbox > a,
+  .a_btmbox > a {
+    height: 250px;
+  }
+  .a_topbox > a > img,
+  .a_btmbox > a > img {
+    height: 75%;
+  }
+  .a_txt01 {
+    font-size: 16px;
+  }
+  .a_txt02 {
+    font-size: 13px;
+  }
+
+  .a_topbox > a:first-child,
+  .a_btmbox > a:last-child {
+    width: 100%;
+    height: 300px;
+  }
+  .a_topbox > a:first-child > img,
+  .a_btmbox > a:last-child > img {
+    width: 100%;
+    height: 75%;
+  }
+  .lotte_news > p > span {
+    margin-left: 200px;
+  }
+  #section06 {
+    height: 600px;
+  }
+  #section06 .lotte_news > a {
+    font-size: 15px;
+  }
+  .app {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .m_header > a {
+    width: 100px;
+    font-size: 15px;
+  }
+  .m_select {
+    margin-left: -50px;
+  }
+  .m_header > span > img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .m_header > span {
+    margin: 20px 0 0 20px;
+  }
+
+  #ipad_slide {
+    width: 100vw;
+    height: 490px;
+  }
+
+  /*메인 시작 */
+
+  .time > pre {
+    font-size: 13px;
+  }
+  .time > img {
+    width: 40px;
+    margin: 10px 20px 0 0;
+    padding: 0;
+    margin: 3px 10px 0 30px;
+  }
+
+  .m_header02 > ul > li > a {
+    font-size: 14px;
+  }
+  /*섹션 01 */
+  #section01 {
+    height: 770px;
+  }
+  .m_menu_a {
+    height: 45px;
+  }
+  .m_menu_a > img {
+    margin: 3px 0 0 40px;
+  }
+
+  #one_box {
+    width: 200%;
+    height: 450px;
+    padding-bottom: 3px;
+    padding-right: 4px;
+  }
+  #one_box > a {
+    width: 25%;
+    height: 50%;
+  }
+
+  #one_box > a > p {
+    margin: 10px 0 0 15px;
+    width: 80%;
+    font-size: 13px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  #one_box > a:nth-child(2) {
+    border-right: 0.5px solid #eee;
+  }
+
+  .morebtn {
+    padding-top: 30px;
+  }
+  /*	퍼레이드 섹션 */
+  #section02 {
+    padding-top: 60px;
+    height: 780px;
+  }
+  #section02 .p_textbox {
+    width: 248px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  .swiper-container {
+    width: 320%;
+    margin-top: 60px;
+  }
+  #section02 .p_textbox > p:nth-child(1) {
+    font-size: 22px;
+  }
+  .btn_box {
+    width: 249px;
+    margin: 0 auto;
+  }
+  #btn01,
+  #btn02 {
+    width: 120px;
+    font-size: 12px;
+    margin: 0;
+  }
+  #btn02 {
+    line-height: 1.2;
+  }
+
+  .a_textbox {
+    width: 200px;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding-top: 70px;
+  }
+
+  /*---섹션 03---*/
+  #section03 {
+    height: 1550px;
+  }
+
+  #tab_ul {
+    margin: 0;
+    padding: 0 0 0 5px;
+  }
+  #tab_ul > li > a {
+    font-size: 10px;
+    margin: 0 2px;
+  }
+  .tab_content {
+    margin-top: 11px;
+  }
+  .a_txt01 {
+    padding: 10px 0 0 10px;
+    font-size: 14px;
+  }
+  .a_txt02 {
+    height: 15px;
+    margin: 10px 0 0 10px;
+    padding: 0;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  /*섹션 04 */
+
+  #section04 {
+    width: 100%;
+    height: 310px;
+  }
+  #text_04 {
+    width: 80%;
+  }
+  #text_04 > p:first-child {
+    font-size: 25px;
+  }
+  #text_04 > p:first-child > span {
+    font-size: 26px;
+  }
+
+  /*	섹션 05 */
+  #section05 {
+    height: 680px;
+  }
+  #expirence > ul > li > a {
+    height: 250px;
+  }
+
+  #section06 {
+    height: 520px;
+  }
+  .lotte_news {
+    padding: 20px;
+    height: 220px;
+  }
+  .lotte_news > p > span {
+    margin-left: 100px;
+  }
+  #section06 .lotte_news > a {
+    font-size: 13px;
+  }
+  .app {
+    height: 200px;
+  }
+}
+
+@media (max-width: 420px) {
+  #ipad_slide {
+    width: 100vw;
+    height: 420px;
+  }
+  /* #tab_ul {
+ 	padding-left:30px;
+ } */
+  .a_topbox > a,
+  .a_btmbox > a {
+    height: 200px;
+  }
+  .a_topbox > a img,
+  .a_btmbox > a img {
+    height: 70%;
+  }
+}

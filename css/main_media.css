@@ -1,0 +1,672 @@
+/* PC , 테블릿 가로 (해상도 768px ~ 1023px)*/
+/* 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media only screen and (max-width: 1023px) {
+  #home h1 {
+    font-size: 7rem;
+  }
+
+  #about,
+  #works,
+  #project {
+    height: 100%;
+  }
+
+  .top_btn {
+    display: none;
+  }
+
+  #about .photo_box {
+    width: 30%;
+  }
+
+  #about .profile_box {
+    width: 70%;
+  }
+
+  #about .border_m {
+    top: 20%;
+    left: 10%;
+    width: 200px;
+    height: 255px;
+  }
+
+  #about .border_m img {
+    width: 200px;
+    height: 100%;
+  }
+
+  #about .aboutme {
+    top: 0%;
+    left: 45%;
+    font-size: 1.8em;
+  }
+
+  #about .profile_pt {
+    height: 410px;
+  }
+
+  #about .myself {
+    width: 610px;
+  }
+
+  #about .pin img:nth-child(2) {
+    top: 77px;
+    left: 120px;
+  }
+
+  #about .pin img {
+    top: 117px;
+    left: 47%;
+  }
+
+  #about .pin img:nth-child(3) {
+    top: 405px;
+    left: 610px;
+  }
+
+  #about .pin img:nth-child(4) {
+    top: 230px;
+    left: 850px;
+  }
+
+  #about .profile_box .skill_ball p {
+    top: 370px;
+    padding: 20px;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+  }
+
+  #about .profile_box dl dt {
+    font-size: 1.2rem;
+  }
+
+  #about .profile_box .certificat {
+    width: 705px;
+  }
+
+  #about .profile_box .certificat dd {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    line-height: 1.3em;
+  }
+
+  #about .myself dd {
+    /* margin-bottom: 5px; */
+    font-size: 1.1em;
+    line-height: 1.3em;
+  }
+
+  #about .skill_ment {
+    top: 240px;
+  }
+
+  #about .profile_box .skill {
+    margin-top: 30px;
+  }
+
+  /* works */
+  #works h3 {
+    top: 100px;
+    font-size: 1.8em;
+  }
+
+  #works .works_box .works_txt {
+    width: 40%;
+    padding: 20px;
+  }
+
+  #works .works_box .works_txt p,
+  #works .works_box .works_txt a {
+    font-size: 1.1em;
+    line-height: 1.3em;
+  }
+
+  #works .works_box .h_page {
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px;
+  }
+
+  #works .works_box .h_page span img {
+    top: 11px;
+    left: 285px;
+    width: 30px;
+  }
+
+  #works .works_box img {
+    width: 60%;
+  }
+
+  /* project */
+  #project h3 {
+    font-size: 1.8em;
+  }
+
+  #project .slide_wrap .slide img {
+    margin-top: 15%;
+    width: 35%;
+  }
+
+  #project .slide .works_txt {
+    width: 45%;
+    padding: 20px;
+  }
+
+  #project .slide .works_txt dt {
+    width: 80px;
+  }
+
+  #project .slide .works_txt dd {
+    font-size: 1.1em;
+    line-height: 1.3em;
+  }
+
+  #project .slide .works_txt a {
+    margin-top: 30px;
+  }
+  #project .slide_bar > button {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* document */
+  #document h3 {
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #document .circle {
+    width: 90%;
+    height: 70%;
+    padding: 170px;
+  }
+
+  #document .file {
+    margin-bottom: 5%;
+  }
+
+  .footer_box p {
+    line-height: 2em;
+    font-size: 1.1em;
+  }
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
+@media only screen and (max-width: 767px) {
+  #home h1 {
+    font-size: 5rem;
+  }
+  nav#top_menu a {
+    font-size: 0.8em;
+  }
+  nav {
+    top: 15px;
+    right: 15px;
+  }
+
+  h2.home_icon a {
+    font-size: 0.8em;
+  }
+
+  #home .mouse {
+    width: 25px;
+    height: 40px;
+  }
+
+  #about .aboutme {
+    width: 170px;
+    left: 115px;
+    top: -10%;
+  }
+
+  #home .mouse span {
+    width: 2px;
+    height: 10px;
+  }
+
+  #about .myself {
+    width: 390px;
+  }
+  #about .myself dd {
+    font-size: 0.8em;
+    line-height: 1.2em;
+  }
+
+  #about .profile_box {
+    width: 68%;
+  }
+
+  #about .profile_box dl dt {
+    font-size: 1rem;
+  }
+
+  #about .profile_box .certificat {
+    width: 460px;
+  }
+
+  #about .profile_box .certificat dl:first-child {
+    width: 42%;
+  }
+
+  #about .profile_box .certificat b {
+    width: 100px;
+    display: block;
+    line-height: 1.6rem;
+  }
+
+  #about .profile_box .certificat dd {
+    font-size: 0.8em;
+    line-height: 1.2em;
+  }
+
+  #about .profile_box .skill {
+    margin-left: -210px;
+  }
+
+  #about .skill_ment {
+    top: 230px;
+    left: 330px;
+    font-size: 1.2rem;
+  }
+
+  #about .border_m {
+    top: 6%;
+    left: 10%;
+    width: 170px;
+    height: 200px;
+  }
+  #about .border_m img {
+    width: 170px;
+    height: 100%;
+  }
+
+  #about .skill_ment img {
+    top: 12px;
+    left: 130px;
+    width: 30px;
+  }
+
+  #about .profile_box dl dt {
+    width: 70px;
+  }
+
+  #about .profile_box .skill_btn span {
+    width: 60px;
+    height: 60px;
+    margin-right: 35px;
+  }
+  #about .profile_box .skill_ball p {
+    padding: 15px 20px;
+    font-size: 1.4rem;
+    width: 695px;
+    top: 350px;
+  }
+
+  #about .pin img:nth-child(2) {
+    top: 0;
+    left: 120px;
+  }
+
+  #about .pin img:nth-child(4) {
+    top: 340px;
+    left: 670px;
+  }
+
+  /* works */
+  #works h3 {
+    font-size: 1.8em;
+    top: 100px;
+    right: 90px;
+  }
+
+  #works .works_box {
+    width: 90%;
+    box-shadow: 15px 14px 0px #f6f6f6d1;
+  }
+
+  #works .works_box .works_txt p,
+  #works .works_box .works_txt a {
+    font-size: 0.8em !important;
+    line-height: 1.2em;
+    text-align: justify;
+    letter-spacing: -1px;
+  }
+
+  #works .works_box .works_txt a {
+    padding: 10px;
+    text-align: center;
+  }
+
+  #works .works_box .works_txt p.mt30 {
+    margin-top: 15px;
+  }
+
+  #works .works_box .h_page span img {
+    top: 11px;
+    left: 185px;
+    width: 30px;
+  }
+
+  /* project */
+  #project .slide_wrap .slide img {
+    top: 50%;
+    width: 30%;
+    transform: translateY(-50%);
+    margin-top: 250px;
+    margin-left: 13%;
+  }
+
+  #project .slide_bar > button {
+    width: 40px;
+    height: 40px;
+  }
+
+  #project .slide .works_txt {
+    position: relative;
+    margin-top: 10%;
+  }
+
+  #project .slide .works_txt dd {
+    font-size: 0.8em;
+    line-height: 1.2em;
+  }
+
+  #project .slide .works_txt p.p_txt1 {
+    font-size: 1.6em;
+    margin-bottom: 5px;
+  }
+
+  #project .slide .works_txt p {
+    font-size: 1em;
+  }
+
+  #project .slide .works_txt dt {
+    font-size: 1em;
+    width: 50px;
+  }
+
+  #project .slide .works_txt dl {
+    margin-top: 30px;
+  }
+
+  #project .slide .works_txt a {
+    margin-top: 50px;
+    color: #84a7c2;
+    width: 47%;
+    line-height: 3em;
+    font-size: 0.8em;
+  }
+
+  /* document */
+
+  #document .circle {
+    height: 60%;
+    padding: 130px;
+  }
+
+  #document .circle {
+    height: 60%;
+    padding: 130px 50px;
+  }
+
+  .footer_box p {
+    line-height: 1.8em;
+    font-size: 0.8em;
+  }
+
+  #document .file {
+    font-size: 0.8em;
+  }
+
+  #document h3 {
+    top: 190px;
+    font-size: 40px;
+  }
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
+@media only screen and (max-width: 500px) {
+  .cloud {
+    display: none;
+  }
+  #home h1 {
+    font-size: 3rem;
+  }
+
+  #home h1 P {
+    font-size: 0.8rem;
+  }
+
+  nav {
+    top: 15px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  h2.home_icon a {
+    font-size: 0.7rem;
+    margin-left: -7px;
+  }
+
+  h2.home_icon::after {
+    left: 0px;
+  }
+  h2.home_icon::before {
+    left: 20px;
+  }
+
+  #home .mouse {
+    bottom: 80px;
+  }
+
+  .cloud img {
+    height: 100vh;
+  }
+  /* about */
+
+  #about .pin {
+    display: none;
+  }
+
+  #about .profile_box,
+  #about .photo_box {
+    display: none;
+  }
+
+  #about,
+  #works,
+  #project {
+    height: 100%;
+    padding: 0;
+  }
+
+  #about .m_profile {
+    display: block;
+    width: 90%;
+    height: 570px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 50px auto;
+  }
+
+  #about .m_profile p {
+    text-align: center;
+    height: 27%;
+  }
+  #about .m_profile img {
+    height: 100%;
+  }
+
+  #about .m_profile .m_about,
+  #works h3,
+  #project h3,
+  #document h3 {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    font-size: 1.3rem;
+    font-family: "LeferiPoint-SpecialItalicA";
+    background-color: #779dbb;
+    width: 150px;
+    height: 32px;
+    line-height: 38px;
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+  }
+
+  #about .m_profile .m_myself {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  #about .m_profile .m_myself span {
+    width: 80px;
+    display: inline-block;
+    font-weight: 900;
+    color: #779dbb;
+  }
+
+  #about .m_profile .m_myself dt b {
+    color: #779dbb;
+  }
+
+  #about .m_profile .m_myself dt,
+  #about .m_profile .m_myself dd {
+    line-height: 1.3em;
+  }
+
+  /* works */
+
+  #works {
+    background-image: none;
+  }
+  #works .works_box {
+    display: none;
+  }
+
+  #works .m_works {
+    display: block;
+    width: 100%;
+  }
+
+  #works .m_works p {
+    text-align: center;
+    line-height: 1.3em;
+  }
+
+  #works .m_works p img {
+    width: 340px;
+    margin-top: 140px;
+  }
+
+  /* project */
+
+  #project {
+    height: 100%;
+  }
+
+  #project .slide_wrap,
+  #project .slide_bar {
+    display: none;
+  }
+
+  #project .m_project {
+    display: block;
+    width: 100%;
+    margin-top: 200px;
+  }
+
+  #project .m_project .pro_box {
+    text-align: center;
+  }
+
+  #project .m_project .pro_box img {
+    width: 350px;
+  }
+
+  #project .m_project p {
+    line-height: 1.3em;
+  }
+
+  #project .m_project .line1 {
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    background: #000;
+  }
+
+  #project .m_project a {
+    width: 90%;
+    display: block;
+    height: 40px;
+    line-height: 35px;
+    background-color: #f8fcfd;
+    border: 2px solid #779dbb;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+    color: #779dbb;
+  }
+
+  #project .m_project a:hover {
+    background-color: #fff;
+  }
+
+  .mt15 {
+    margin-top: 15px;
+  }
+
+  #project .m_project .p_box2 {
+    margin-top: 210px;
+  }
+
+  #document .circle {
+    display: none;
+  }
+
+  #document h3 {
+    transform: translateX(0);
+  }
+
+  #document .m_document {
+    display: block;
+    width: 80%;
+    z-index: 1;
+    /* text-align: center; */
+    margin: 30px auto;
+  }
+
+  #document .m_document a {
+    height: 60px;
+    display: block;
+    width: 100%;
+    background-color: #779dbb30;
+    border-radius: 15px;
+    border: 1px solid #ffffff;
+    margin-bottom: 10px;
+  }
+
+  #document .m_document a img {
+    height: 70%;
+    vertical-align: -13px;
+    margin-left: 40px;
+    margin-top: 8px;
+    margin-right: 10px;
+  }
+
+  #document .m_document p.m_footer {
+    line-height: 1.3em;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  #document .m_document p.m_footer span {
+    line-height: 1.3em;
+    font-size: 1em;
+    color: #779dbb;
+  }
+}

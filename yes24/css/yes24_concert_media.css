@@ -1,0 +1,73 @@
+@media(max-width:1200px){
+	*{
+		box-sizing: border-box;
+		/*border: 1px solid red;*/
+	}
+	body,html{
+		max-width: 100%;
+	}
+	header {
+		max-width:100%;
+	}
+	#wrapper{
+		max-width: 100%;
+		/*overflow: hidden;*/
+	}
+	.fixed {
+	 	max-width:100%;
+		min-width:1080px;	
+	}
+	.show_menu_ul02 li input{
+		width: 100px;
+	}
+	.show_menu2 {
+		width: 400px;
+	}
+	#searchbox{
+		opacity: 0;
+	}
+
+/*메인 시작 */
+	.c-slide {
+		max-width: 100%; 
+		background: skyblue;
+	}
+
+/*위클리*/
+	#c-weekly{
+		max-width:100%; 
+	}
+
+/*하단 메뉴 광고*/
+	#c-footermenu{
+		max-width: 100%;
+	}
+
+
+/*footer 반응*/
+	footer {
+		overflow: hidden;
+		max-width: 100%;
+		min-width: 1190px;
+	}
+	#footer_menu {
+		max-width: 100%;
+		min-width: 1190px;
+	}
+	.last {
+		max-width: 100%;
+		min-width: 1190px;
+	}
+	.last #l_left {
+		width: 320px;
+		padding-left: 30px;
+	}
+	.last #l_left span {
+		font-size: 12px;
+	}
+	#address {
+
+		max-width: 100%;
+		min-width: 1190px;
+	}
+}

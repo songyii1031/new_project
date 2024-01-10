@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+/* reset.css */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+address,
+span,
+strong,
+em,
+q,
+sub,
+sup,
+del,
+s,
+a,
+img,
+div,
+header,
+nav,
+aside,
+main,
+footer,
+article,
+figure,
+figcaption,
+section,
+video,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+fieldset,
+legend,
+input,
+select,
+option,
+button,
+label,
+textarea {
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  color: #333333;
+}
+th {
+  text-align: left;
+}
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  color: #333333;
+  cursor: pointer;
+}
+input {
+  outline: none;
+  border: 0;
+}
+button {
+  cursor: pointer;
+  border: 0;
+}
+fieldset {
+  border: 0;
+}
+
+/* 간격 */
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+.mt100 {
+  margin-top: 100px;
+}
+
+.pd10 {
+  padding: 10px;
+}
+
+/* 사이즈 */
+
+.w100 {
+  width: 100%;
+}
+
+.fw50 {
+  font-weight: 500 !important;
+}
+
+.fw90 {
+  font-weight: 900 !important;
+}
